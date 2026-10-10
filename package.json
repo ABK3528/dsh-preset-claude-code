@@ -1,0 +1,30 @@
+{
+  "name": "dsh-preset-claude-code",
+  "version": "1.0.0",
+  "description": "Anthropic Claude Code official agent preset plugin for DeepSeek Harness (DSH)",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "preset",
+    "claude-code",
+    "deepseek-harness"
+  ],
+  "author": "ABKtester",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/validate.test.js"
+  }
+}
