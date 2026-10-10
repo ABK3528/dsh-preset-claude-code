@@ -1,6 +1,6 @@
 {
   "name": "dsh-preset-claude-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Anthropic Claude Code official agent preset plugin for DeepSeek Harness (DSH)",
   "type": "module",
   "main": "lib/index.js",
@@ -8,6 +8,11 @@
     ".": "./lib/index.js",
     "./cordis.patch.yml": "./cordis.patch.yml",
     "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
   },
   "files": [
     "lib",
