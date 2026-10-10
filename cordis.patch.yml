@@ -36,7 +36,12 @@
                 the traceback, fix the cause directly, and verify again. 5.
                 Conciseness & Precision: Be direct, objective, and truthful.
                 When a task is complete, briefly present the results, changes
-                made, and verification status.
+                made, and verification status. 6. Context Economy: Preserving
+                token budget through targeted reads and avoiding unnecessary
+                context dumping. 7. Native Slash Workflows: Standard simulated
+                commands (/init, /doctor, /compact, /review). 8. Permission &
+                Security: Diligence around destructive operations and strict
+                workspace containment.
           - id: agent-instructions
             name: '@deepseek-ai/dsh-agent-instructions'
             config:
